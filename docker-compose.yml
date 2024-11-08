@@ -8,7 +8,7 @@ services:
       - app-network
 
   backend:
-    build: ./backend
+    build: /Users/danrojas/Desktop/proyects/personal/dc/form/backend
     ports:
       - "3000:3000"
     networks:
